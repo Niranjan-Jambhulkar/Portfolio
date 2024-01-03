@@ -1,0 +1,29 @@
+.header{
+    position: relative;
+    height: 100vh;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(../img/header.jpg);
+}
+
+.header-content{
+    padding-left: 300px;
+    margin-top: 20px;
+    max-width: 550px;
+    flex-grow: 1;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logo{
+    font-size: 20;
+    color: white;
+    text-decoration: none;
+}
