@@ -5,18 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Source/css/header.css">
+    <script>
+        function myFunction(x) {
+          x.classList.toggle("change");
+        }
+    </script>
 </head>
-<body>
-   
-
-    <!--Page Header-->
-    <header class="header">
-        <div class="header-content">Hi</div>
-         <!--Page Nav-->
-    <nav class="navbar">
-        <a class="logo" href="#">Logo</a>
+<body class="body">
+    <!--Page Nav-->
+    <nav class="navbar" onclick="myFunction(this)">
+        <a class="logo" href="#">Niranjan Jambhulkar</a>
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
     </nav>
-    <!--Page Nav End--> 
+    <!--Page Nav End-->
+    <!--Page Header-->
+    <header class="header-content">
+          <span class="up">Hi!</span>
+          <span class="down">I am Niranjan <br>Jambhulkar</span>
+          <span class="header-subtitle">Full Stack Developer</span><br>
+          <button class="visit-work">Visit My Work</button>
     </header>
     <!--Page Header End-->
 </body>
