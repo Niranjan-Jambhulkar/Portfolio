@@ -151,3 +151,12 @@
   font-size: 20px;
   font-weight: 600;
 }
+
+.container-image:hover{
+  transform: translateY(20px);
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+  }
+
+
