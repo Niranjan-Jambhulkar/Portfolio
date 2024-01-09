@@ -112,21 +112,16 @@
   font-weight: 700;
 }
 
-.service-container{
-  width: 1200px;
-  padding-left: 450px;
-}
 
-.main-container{
-  padding-left: 200px;
-  margin-left: 150px; 
+.service-main-container{
+  margin-left: 350px; 
   border-width: 1px; 
   border-style: hidden;
   height: 200px;
   width: 840px;
 }
 
-.my-container{
+.service-sub-container{
   display: inline-block;
   border-width: 1;
   border-style: solid;
@@ -135,25 +130,24 @@
   overflow: hidden;
 }
 
-.container-image{
+.service-container-image{
   padding-top: 20px;
   padding-left: 35px;
-  width: 130px;
-  height: 130px;
+  width: 165px;
+  height: 160px;
 }
 
-.container-text{
+.service-container-text{
   padding-left: 60px;
   color: black;
   font-size: 20px;
   font-weight: 600;
 }
 
-.container-image:hover{
+.service-container-image:hover{
   transform: translateY(20px);
   position: absolute;
   opacity: 0;
   transition: 0.5s;
   }
-
 
