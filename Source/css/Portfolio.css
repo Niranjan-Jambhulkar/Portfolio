@@ -46,12 +46,11 @@
   padding-left: 500px;
 }
 
-#button{
+#button-work{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   width: 150px;
   height: 40px;
   margin-top: 10px;
-  /* margin-left: 500px; */
   position: relative;
   display: block;
   background-color: blueviolet;
@@ -62,26 +61,18 @@
   font-weight: 400;
 }
 
-.image{
+.image-about{
   height: 600px;
-    
 }
 
-.about-container{
-  width: 600px;
-  padding-left: 200px;
+.text-about{
+  font-weight: 650;
+  color: rgb(95, 0, 184);
 }
 
-
-  /* .about{
-  padding-top: 100px;
-  padding-left: 200px;
-  padding-right: 200px;
-  display: inline-block;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 18px;
-  color: #939292;
-  } */
+.text-about-para{
+  font-size: 19px;
+}
 
 #buttoncv{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -121,8 +112,14 @@
   font-weight: 700;
 }
 
+.service-container{
+  width: 1200px;
+  padding-left: 450px;
+}
+
 .main-container{
-  margin-left: 300px; 
+  padding-left: 200px;
+  margin-left: 150px; 
   border-width: 1px; 
   border-style: hidden;
   height: 200px;
