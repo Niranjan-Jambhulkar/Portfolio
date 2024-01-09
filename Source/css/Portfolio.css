@@ -23,7 +23,7 @@
   position: relative;
   display: block;
   padding-top: 200px;
-  padding-left: 500px;
+  margin-left: 500px;
 }
 
 .header-para2{
@@ -50,7 +50,8 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   width: 150px;
   height: 40px;
-  margin-top: 20px;
+  margin-top: 10px;
+  /* margin-left: 500px; */
   position: relative;
   display: block;
   background-color: blueviolet;
@@ -115,14 +116,14 @@
 }
 
 .main-container{
-  margin-left: 150px; 
+  margin-left: 300px; 
   border-width: 1px; 
   border-style: hidden;
   height: 200px;
   width: 840px;
 }
 
-.mycontainer{
+.my-container{
   display: inline-block;
   border-width: 1;
   border-style: solid;
