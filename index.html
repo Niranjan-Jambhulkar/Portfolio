@@ -18,19 +18,17 @@
 <body>
     <!-- Navigation Bar Start -->
     <nav>
-        <div class="container-fluid">
-        <a class="logo" href="">Niranjan Jambhulkar</a>
-        </div>
+        <a class="logo" href="index.html">Niranjan Jambhulkar</a>
     </nav>
     <!-- Navigation Bar End -->
 
     <!-- Header Start -->
-    <div class="container-fluid background">
+    <div class="background">
     <header class="container row col-12">
         <span class="header-para1 row offset-4" style="width: 100px;">Hi!</span>
         <span class="header-para2 row offset-4" style="width: 500px;">I am Niranjan <br>Jambhulkar</span><br>
         <span class="header-subtitle row offset-4" style="width: 500px;">Full Stack Developer</span><br><br>
-        <button type="submit" class="row offset-4 " id="button-work" onclick="work()">Visit My Works</button>
+        <button type="submit" class="row offset-4" id="button-work" onclick="work()">Visit My Works</button>
     </header><br><br><br><br><br><br><br>
     </div>
     <!-- Header End -->
@@ -66,19 +64,30 @@
             <div class="service-sub-container">
                 <img class="service-container-image" src="Source/img/Backend.png" alt="Backend">
                 <span class="service-container-text">Backend</span>
-                <p class="info">I have developed backend services in Java, C, python</p>
+                <p class="service-container-subtext">
+                    I have experience in developing web applications using various technologies and frameworks, such as Java, Python, C-language, MongoDB, Spring Boot, RESTful APIs, Git, and Hibernate.
+                </p>
             </div>
             <div class="service-sub-container">
                 <img class="service-container-image" src="Source/img/frontend.png" alt="frontend">
                 <span class="service-container-text">Frontend</span>
+                <p class="service-container-subtext">
+                    I have experience in creating and designing user interfaces and user experiences for websites and web applications using various technologies and frameworks, such as HTML, CSS, JavaScript, Bootstrap, React, and Angular.
+                </p>
             </div>
             <div class="service-sub-container">
                 <img class="service-container-image" src="Source/img/AI-ML.png" alt="AI-ML">
                 <span class="service-container-text">AI - ML</span>
+                <p class="service-container-subtext">
+                    I have experience in developing and deploying artificial intelligence and machine learning solutions for various domains and applications, such as natural language processing, computer vision, recommender systems, and data analysis.
+                </p>
             </div>
             <div class="service-sub-container">
                 <img class="service-container-image" src="Source/img/Database.png" alt="Database">
                 <span class="service-container-text">Database</span>
+                <p class="service-container-subtext">
+                    I have experience in designing, developing, maintaining, and optimizing databases using various technologies and platforms, such as Oracle, MongoDB, NoSQL and PostgreSQL.
+                </p>
             </div>
         </div><br><br><br><br>
 
@@ -113,18 +122,14 @@
 
 
         <div class="portfolio-main-container">
-            <div class="portfolio-sub-container">
-                <img class="portfolio-container-image" src="Source/img/Backend.png" alt="Backend">
-                <span class="portfolio-container-text">Backend</span>
-                <p class="info">I have developed backend services in Java, C, python</p>
+            <div class="portfolio-sub-container" onmouseover="mover1()" onmouseout="mout1()" onclick="ems()" style="background-image: url(Source/img/EMS.png); background-size: cover;" >
+                <p id="sub1" class="portfolio-container-header"></p>
             </div>
-            <div class="portfolio-sub-container">
-                <img class="portfolio-container-image" src="Source/img/frontend.png" alt="frontend">
-                <span class="portfolio-container-text">Frontend</span>
+            <div class="portfolio-sub-container" onmouseover="mover2()" onmouseout="mout2()" onclick="cal()" style="background-image: url(Source/img/Calculator.png); background-size: cover;" >
+                <p id="sub2" class="portfolio-container-header"></p>
             </div>
-            <div class="portfolio-sub-container">
-                <img class="portfolio-container-image" src="Source/img/AI-ML.png" alt="AI-ML">
-                <span class="portfolio-container-text">AI - ML</span>
+            <div class="portfolio-sub-container" onmouseover="mover3()" onmouseout="mout3()" onclick="port()" style="background-image: url(Source/img/Web-Design.jpg); background-size: cover;" >
+                <p id="sub3" class="portfolio-container-header"></p>
             </div>
         </div><br><br><br><br>
 
