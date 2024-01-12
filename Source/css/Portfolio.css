@@ -243,6 +243,7 @@
 }
 
 .hire-btn{
+  font-family: 'Baloo Paaji', cursive;
   background-color: white;
   color: black;
   margin-left: 300px;
@@ -256,8 +257,44 @@
 
   /* Footer Start */
 .footer-text{
-  padding-top: 50px;
+  padding-top: 20px;
   font-size: 30px;
   text-align: center;
   font-weight: 600;
 }
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 15px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-whatsapp {
+  background: green;
+  color: white;
+}
+
+.fa-instagram {
+  background: rgb(225, 4, 41);
+  color: white;
+}
+/* Footer End */
