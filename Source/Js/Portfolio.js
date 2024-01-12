@@ -39,3 +39,7 @@ function cal(){
 function port(){
     location.href = "https://github.com/Niranjan-Jambhulkar/Portfolio"
 }
+
+function hire(){
+    location.href = "mailto:niranjan.jambhulkar@outlook.com"
+}
