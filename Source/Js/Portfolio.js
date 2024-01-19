@@ -36,7 +36,7 @@ function cal(){
     location.href = "https://github.com/Niranjan-Jambhulkar/Calculator"
 }
 
-function port(){
+function por(){
     location.href = "https://github.com/Niranjan-Jambhulkar/Portfolio"
 }
 
