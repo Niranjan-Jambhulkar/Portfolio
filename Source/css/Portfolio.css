@@ -462,7 +462,92 @@ a:hover {
 
 /* Portfolio End */
 
+/* Hire me Start */
 
+.section-sm {
+  padding: 40px 0 !important;
+}
+
+.col-sm{
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.offset-md-1 {
+  margin-left: 8.33333%;
+}
+
+.mb-4{
+  margin-bottom: 1.5rem;
+}
+
+.text-light {
+  color: #f8f9fa;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.btn-lg {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+}
+
+.my-font {
+  font-family: 'Baloo Paaji', cursive;
+}
+
+.btn-light {
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.rounded {
+  border-radius: 4px;
+}
+
+@media (min-width: 768px) {
+  .mb-md-0{
+    margin-bottom: 0;
+  }
+
+  .offset-md-3 {
+    margin-left: 25%;
+  }
+
+  .offset-md-1 {
+    margin-left: 8.33333%;
+  }
+}
+
+@media (min-width: 576px) {
+  .text-sm-left {
+    text-align: left;
+  }
+
+  .col-sm {
+    -webkit-flex-basis: 0;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+
+  .offset-sm-2 {
+    margin-left: 16.66667%;
+  }
+}
+
+/* Hire me End */
 
 @media (min-width: 576px) {
   .container {
@@ -495,13 +580,7 @@ a:hover {
 /* Portfolio container */
 
  
-  .offset-md-1 {
-    margin-left: 8.33333%;
-  }
-  
-  .offset-md-3 {
-    margin-left: 25%;
-  }
+ 
 
 
 /* Service container */
@@ -513,19 +592,10 @@ a:hover {
 /* Download btn end*/
 
 /* Hire me btn */
-.btn-lg, .btn-group-lg > .btn {
-  padding: 0.5rem 1rem;
-  font-size: 1.25rem;
-  line-height: 1.5;
-  border-radius: 0.3rem;
-}
 
 
-.btn-light {
-  color: #212529;
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
-}
+
+
 
 .btn-light:hover {
   color: #212529;
@@ -549,9 +619,7 @@ a:hover {
 
 
 /* Hire */
-.text-light {
-  color: #f8f9fa !important;
-}
+
 
 /* contact section */
 
@@ -561,9 +629,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #695aa6;
 }
 
-.my-font {
-  font-family: 'Baloo Paaji', cursive;
-}
+
 
 p {
   font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
@@ -713,6 +779,3 @@ p {
 
 
 
-.section-sm {
-  padding: 40px 0 !important;
-}
