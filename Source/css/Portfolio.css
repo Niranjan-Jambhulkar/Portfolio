@@ -80,7 +80,11 @@ p {
 }
 
 .section {
-  padding: 70px 10px;
+  padding: 40px 10px;
+}
+
+.section-portfolio {
+  padding: 100px 10px;
 }
 
 .section-subtitle {
@@ -229,6 +233,7 @@ p {
   color: #fff;
   background-color: #695aa6;
   border-color: #695aa6;
+  cursor: pointer;
 }
 
 .btn-primary:hover {
@@ -237,7 +242,7 @@ p {
   border-color: #544885;
 }
 
-.btn-primary:focus, .btn-primary.focus {
+.btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(128, 115, 179, 0.5);
 }
 
@@ -283,6 +288,7 @@ p {
 .btn-outline-primary {
   color: #695aa6;
   border-color: #695aa6;
+  cursor: pointer;
 }
 
 .btn-outline-primary:hover {
@@ -347,6 +353,7 @@ p {
   opacity: 0;
   visibility: hidden;
   transition: all, 0.3s;
+  text-align: center;
 }
 
 .service-card:hover .subtitle {
@@ -387,6 +394,7 @@ p {
   display: block;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .portfolio-card-img {
@@ -405,6 +413,7 @@ p {
   transition: all, 0.3s;
   border-radius: 50%;
   overflow: hidden;
+  font-size: x-large;
 }
 
 .portfolio-card:hover .portfolio-card-overlay {
@@ -487,6 +496,7 @@ p {
   color: #212529;
   background-color: #f8f9fa;
   border-color: #f8f9fa;
+  cursor: pointer;
 }
 
 .btn-light:hover {
@@ -554,13 +564,14 @@ p {
 
 .mb-0 {
   margin-bottom: 0;
+  font-size:large;
 }
 
 .social-links {
   flex-grow: 1;
 }
 
-.footer .social-links a {
+.social-links a {
   height: 40px;
   width: 40px;
   border-radius: 50%;
@@ -568,6 +579,7 @@ p {
   text-align: center;
   border: 2px solid #6c757d;
   color: #6c757d;
+  padding-bottom: 40px;
 }
 
 .footer .social-links a:hover {
@@ -584,6 +596,14 @@ p {
 .m-auto {
   margin: auto;
 }
+
+/* .fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+} */
 
 @media (min-width: 576px) {
   .ml-sm-auto {
