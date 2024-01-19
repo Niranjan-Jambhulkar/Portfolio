@@ -327,6 +327,74 @@ a:hover {
 
 /* About End */
 
+/* Service Start */
+
+.col-md-6, .col-lg-3{
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.service-card {
+  position: relative;
+  min-height: 230px;
+  border: 1px solid #dee2e6;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.icon {
+  margin-top: 40px;
+  width: 55px;
+  margin-bottom: 25px;
+  -webkit-transition: all, 0.3s;
+  transition: all, 0.3s;
+}
+
+.service-card:hover .icon {
+  margin-top: 5px;
+  width: 45px;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  position: absolute;
+  bottom: -100%;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all, 0.3s;
+  transition: all, 0.3s;
+}
+
+.service-card:hover .subtitle {
+  bottom: 7px;
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (min-width: 992px) {
+  .col-lg-3 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 25%;
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .portfolio-card {
+    margin-bottom: 30px;
+  }
+  .service-card {
+    margin-bottom: 30px;
+  }
+}
+
+/* Service End */
+
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -353,12 +421,7 @@ a:hover {
 
 
 
-.col-md-6, .col-lg-3{
-  position: relative;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-}
+
 
 /* Portfolio container */
 @media (min-width: 768px) {
@@ -380,15 +443,7 @@ a:hover {
 }
 
 /* Service container */
-@media (min-width: 992px) {
-  .col-lg-3 {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 25%;
-        -ms-flex: 0 0 25%;
-            flex: 0 0 25%;
-    max-width: 25%;
-  }
-}
+
 
 
 
@@ -463,42 +518,11 @@ p {
 
 
 /* service */
-.service-card {
-  position: relative;
-  min-height: 230px;
-  border: 1px solid #dee2e6;
-  overflow: hidden;
-  border-radius: 3px;
-}
 
-.service-card .body img.icon {
-  margin-top: 40px;
-  width: 55px;
-  margin-bottom: 25px;
-  -webkit-transition: all, 0.3s;
-  transition: all, 0.3s;
-}
 
-.service-card .body .subtitle {
-  position: absolute;
-  bottom: -100%;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: all, 0.3s;
-  transition: all, 0.3s;
-}
 
-.service-card:hover .body img.icon {
-  margin-top: 5px;
-  width: 45px;
-  margin-bottom: 15px;
-}
 
-.service-card:hover .body .subtitle {
-  bottom: 7px;
-  opacity: 1;
-  visibility: visible;
-}
+
 
 /*/ portfolio wrapper */
 .portfolio-card {
@@ -550,14 +574,6 @@ p {
   border-radius: 0;
 }
 
-@media (max-width: 767.98px) {
-  .portfolio-card {
-    margin-bottom: 30px;
-  }
-  .service-card {
-    margin-bottom: 30px;
-  }
-}
 
 
 
