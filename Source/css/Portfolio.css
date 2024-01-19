@@ -233,6 +233,7 @@ p {
   color: #fff;
   background-color: #695aa6;
   border-color: #695aa6;
+  cursor: pointer;
 }
 
 .btn-primary:hover {
@@ -287,6 +288,7 @@ p {
 .btn-outline-primary {
   color: #695aa6;
   border-color: #695aa6;
+  cursor: pointer;
 }
 
 .btn-outline-primary:hover {
@@ -392,6 +394,7 @@ p {
   display: block;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .portfolio-card-img {
@@ -493,6 +496,7 @@ p {
   color: #212529;
   background-color: #f8f9fa;
   border-color: #f8f9fa;
+  cursor: pointer;
 }
 
 .btn-light:hover {
