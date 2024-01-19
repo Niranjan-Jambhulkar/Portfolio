@@ -80,7 +80,11 @@ p {
 }
 
 .section {
-  padding: 70px 10px;
+  padding: 40px 10px;
+}
+
+.section-portfolio {
+  padding: 100px 10px;
 }
 
 .section-subtitle {
@@ -237,7 +241,7 @@ p {
   border-color: #544885;
 }
 
-.btn-primary:focus, .btn-primary.focus {
+.btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(128, 115, 179, 0.5);
 }
 
@@ -347,6 +351,7 @@ p {
   opacity: 0;
   visibility: hidden;
   transition: all, 0.3s;
+  text-align: center;
 }
 
 .service-card:hover .subtitle {
