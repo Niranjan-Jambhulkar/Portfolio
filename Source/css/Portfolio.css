@@ -410,6 +410,7 @@ p {
   transition: all, 0.3s;
   border-radius: 50%;
   overflow: hidden;
+  font-size: x-large;
 }
 
 .portfolio-card:hover .portfolio-card-overlay {
@@ -559,13 +560,14 @@ p {
 
 .mb-0 {
   margin-bottom: 0;
+  font-size:large;
 }
 
 .social-links {
   flex-grow: 1;
 }
 
-.footer .social-links a {
+.social-links a {
   height: 40px;
   width: 40px;
   border-radius: 50%;
@@ -573,6 +575,7 @@ p {
   text-align: center;
   border: 2px solid #6c757d;
   color: #6c757d;
+  padding-bottom: 40px;
 }
 
 .footer .social-links a:hover {
@@ -589,6 +592,14 @@ p {
 .m-auto {
   margin: auto;
 }
+
+/* .fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+} */
 
 @media (min-width: 576px) {
   .ml-sm-auto {
