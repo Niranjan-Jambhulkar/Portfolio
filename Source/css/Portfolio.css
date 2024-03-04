@@ -145,9 +145,9 @@ p {
 }
 
 
-/* Nav Bar Start */
+/* Logo Start */
 
-.custom-navbar {
+.logo-name {
   position: fixed;
   top: 0;
   left: 0;
@@ -165,7 +165,7 @@ p {
   color: #fff;
 }
 
-/* Nav Bar End */
+/* Logo End */
 
 
 /* Header Start */
@@ -595,7 +595,6 @@ p {
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
-  -webkit-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
@@ -610,6 +609,7 @@ p {
 .form-control::placeholder {
   color: #6c757d;
   opacity: 1;
+  font-family:"Open Sans", sans-serif;
 }
 
 textarea.form-control {
