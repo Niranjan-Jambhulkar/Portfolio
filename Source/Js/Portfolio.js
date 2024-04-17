@@ -10,8 +10,8 @@ function ems(){
     location.href = "https://github.com/Niranjan-Jambhulkar/Employee-Management-System"
 }
 
-function cal(){
-    location.href = "https://github.com/Niranjan-Jambhulkar/Calculator"
+function dic(){
+    location.href = "https://github.com/Niranjan-Jambhulkar/Dictionary"
 }
 
 function por(){
@@ -31,7 +31,7 @@ function mout1(){
 }
 
 function mover2(){
-    document.getElementById("sub2").innerHTML = "Calculator"
+    document.getElementById("sub2").innerHTML = "Dictionary"
 }
 function mout2(){
     document.getElementById("sub2").innerHTML = ""
